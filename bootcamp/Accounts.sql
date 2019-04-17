@@ -27,7 +27,7 @@ INSERT INTO Transaction(Amount, TXN_type, Account_ID)
 	VALUES
     (500.00,'Deposit',3),
     (200.00,'Withdrawl',4),
-    (200.00,'Deposit',4),
+    (-200.00,'Deposit',4),
     (248.00,'Deposit',1);
     
     
