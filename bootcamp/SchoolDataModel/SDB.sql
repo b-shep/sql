@@ -41,6 +41,7 @@ CREATE TABLE Enrollment(
     FOREIGN KEY(CourseID) REFERENCES Course(ID)
 );
 
+
 INSERT INTO Student VALUES
 	(1, 'Ben', 'Shepherd', '1079 East Waldo Road', 'Belfast', 'ME', '04915', '1993-10-13', '2073221753', 'ben1shep1herd@gmail.com', '00000000'),
 	(2, 'John', 'Smith', '123 Green Road', 'Toledo', 'OH', '59603', '1990-12-02', '1233455678', 'john@aol.com', '000000001'),
@@ -58,7 +59,7 @@ INSERT INTO Course VALUES
 INSERT INTO Instructor VALUES
 	(1, 'Michel', 'Foucault', 1),
     (2, 'Andrew', 'Huxley', 2),
-    (3, 'Linus', 'Torvalds', 3);
+    (3, 'Linus', 'Torvald', 3);
 
 	
 	
